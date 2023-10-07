@@ -1,0 +1,93 @@
+/* Fonte roboto do google chorome "Google Fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+.card_Form {
+    margin-top: 300px;
+    margin-left: 690px;
+    width: 350px;               
+    height: 420px;
+    border: 2px solid #4169E1;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+    /* Personalização do Card */ 
+}
+
+h2 {
+    /* Personalização do titulo "Cadastro de Ingressantes" */
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4169E1;
+    text-align: center;
+    color: #fff;
+    background-color: #4169E1;
+}
+
+label {
+    /* Personalização das labels que ficam acima do inputs */
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+form {
+    /* Personalização do formulario */
+    margin-left: 2%;
+    text-align: left;
+}
+
+input,
+select {
+    /* Personalização dos inputs e selects */
+    margin-top: 5px;
+    margin-bottom: 12px;
+    width: 89%;
+    height: 32px;
+    padding: 0px 10px 0px 19px;
+    border: 2px solid #4169E1;
+    border-radius: 5px;
+
+}
+
+select {
+    width: 338px;
+    appearance: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../Icon_List.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: 298px;
+}
+
+
+.inp_Gravar {
+    /* Personalização do botao "Gravar"*/
+    display: block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 205px;
+    width: 130px;
+    height: 40px;
+    padding: 3px 0px 4px 0px;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #32CD32;
+    background-color: #32CD32;
+    cursor: pointer;
+}
+
+.inp_Voltar {
+    /* Personalização do botão "Voltar"*/
+    margin-top: 35px;
+    width: 130px;
+    height: 30px;
+    padding: 3px 0px 5px 0px;
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #FFD700;
+    background-color: #FFD700;
+    cursor: pointer;
+}
+
+

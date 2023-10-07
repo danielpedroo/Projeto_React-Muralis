@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./componentes.css/Style.css";
 
 const Forms_Muralis = () => {
-  const [nome, setNome] = useState("");   
+  const [nome, setNome] = useState("");
   const [curso, setCurso] = useState("");
   const [estado, setEstado] = useState("");
   const [cidade, setCidade] = useState("");
@@ -59,7 +59,7 @@ const Forms_Muralis = () => {
     console.log(curso);
     console.log(estado);
     console.log(cidade);
-    console.log("\n")
+    console.log("\n");
     setNome("");
     setCurso("");
     setEstado("");
@@ -113,7 +113,6 @@ const Forms_Muralis = () => {
             value={cidade}
           >
             {OpcoesCidade()} {/* Função de renderização de cidades*/}
-
           </select>
         </label>
         <input className="inp_Gravar" type="submit" value="Gravar" />

@@ -76,7 +76,7 @@ const Forms_Muralis = () => {
             type="text"
             name="nome"
             onChange={(e) => setNome(e.target.value)}
-            value={nome}
+            value={nome || ""}
           />
         </div>
         <label>
